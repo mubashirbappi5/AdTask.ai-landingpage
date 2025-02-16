@@ -1,8 +1,11 @@
+import Navber from "../Components/Navber";
 
 const Home = () => {
     return (
-        <div>
-            <h1>hi this is home</h1>
+        <div className="bg-black min-h-screen">
+           <div className=" py-5 px-10">
+           <Navber/>
+           </div>
         </div>
     );
 };
