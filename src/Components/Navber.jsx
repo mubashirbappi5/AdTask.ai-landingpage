@@ -20,10 +20,10 @@ const Navbar = () => {
 
   return (
     <div>
-      <nav className="relative shadow border-2 border-white rounded-[16px]">
+      <nav className="relative shadow border-2 border-[#FFFFFF1A] bg-[#5C60691A] rounded-[16px]">
         <div className="container px-6 py-4 mx-auto flex items-center justify-between">
           <div className="flex items-center">
-            <h2 className="text-lg font-semibold text-white">adTask.ai</h2>
+            <h2 className="text-lg font-semibold text-white">ad<span className="text-2xl font-bold">Task</span>.ai</h2>
           </div>
 
           {/* Links Section */}
@@ -31,8 +31,9 @@ const Navbar = () => {
 
           {/* Buttons Section */}
           <div className="hidden lg:flex gap-4">
-            <button className="bg-white text-black px-4 py-2 rounded-md">Login</button>
-            <button className="bg-blue-600 text-white px-4 py-2 rounded-md">Sign Up</button>
+            
+            <button className="bg-[#7687B54A] border border-[#7687B5] text-[#E2E8F8] px-4 py-2 rounded-2xl">Log in</button>
+            <button className="bg-[#7687B54A] border border-[#7687B5] text-[#E2E8F8] px-4 py-2 rounded-2xl">Schedule a Call</button>
           </div>
 
           {/* Mobile Menu Button */}

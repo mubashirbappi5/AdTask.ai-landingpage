@@ -1,3 +1,5 @@
+import AdTaskYT from "../Components/AdTaskYT";
+import Banner from "../Components/Banner";
 import Navber from "../Components/Navber";
 
 const Home = () => {
@@ -5,6 +7,8 @@ const Home = () => {
         <div className="bg-black min-h-screen">
            <div className=" py-5 px-10">
            <Navber/>
+           <Banner/>
+           <AdTaskYT/>
            </div>
         </div>
     );
