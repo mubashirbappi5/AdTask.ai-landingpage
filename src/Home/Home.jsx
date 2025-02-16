@@ -1,5 +1,8 @@
 import AdTaskYT from "../Components/AdTaskYT";
 import Banner from "../Components/Banner";
+import Brand from "../Components/Brand";
+import ContactUs from "../Components/ContactUs";
+
 import Navber from "../Components/Navber";
 
 const Home = () => {
@@ -9,6 +12,8 @@ const Home = () => {
            <Navber/>
            <Banner/>
            <AdTaskYT/>
+           <Brand/>
+         <ContactUs/>
            </div>
         </div>
     );
