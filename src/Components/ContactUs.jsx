@@ -12,7 +12,7 @@ const ContactUs = () => {
           <div>
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
               Ask whatever you have <br />
-              <span className="text-blue-400">in your mind now</span>
+              <span className="bg-gradient-to-r from-[#7687B5] via-[#91B0FF] to-[#E2E8F8] bg-clip-text text-transparent">in your mind now</span>
             </h2>
             <p className="text-gray-400 mb-4">
               Whether you have questions or are ready to discuss your business, we are here to help. Reach out today.
