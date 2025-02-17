@@ -12,7 +12,7 @@ const Banner = () => {
       {/* Triangular Light Shadow */}
       <div className="relative  flex flex-col items-center text-center p-8">
         
-     
+      
 
       {/* Image with Glow */}
       <img className="relative z-10  w-[500px] " src={img1} alt="Banner" />
