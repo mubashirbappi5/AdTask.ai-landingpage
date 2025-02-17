@@ -24,46 +24,46 @@ const SERVICES = () => {
       </div>
 
    
-      <section className='grid grid-cols-3 gap-6'>
+      <section className='grid grid-cols-3 gap-6 my-10'>
      
 
-  <div className='flex'>
-  <img className='border absolute border-red-400 ' src={line} alt="" />
-  <img src={line1} alt="" />
-  <img className='border-b-2 border-l-2  border-red-500' src={img1} alt="" />
+  <div className='flex relative'>
+  <img className='border absolute  -mt-6 -ml-2 ' src={line} alt="" />
+  <img className='' src={line1} alt="" />
+  <img className='border-b-2 border-l-2  ' src={img1} alt="" />
   </div>
   <div className='flex'>
-  <img className='border absolute border-red-400 ' src={line} alt="" />
+  <img className='border absolute  -mt-6 -ml-2 ' src={line} alt="" />
   <img src={line1} alt="" />
   <img src={img1} alt="" />
   </div>
   <div className='flex'>
-  <img className='border absolute border-red-400 ' src={line} alt="" />
+  <img className='border absolute  -mt-6 -ml-2 ' src={line} alt="" />
   <img src={line1} alt="" />
   <img src={img1} alt="" />
-  <img className='border absolute right-0 border-red-400 ' src={line} alt="" />
+  <img className='border absolute  -right-3 ' src={line} alt="" />
   <img src={line1} alt="" />
   </div>
-  <div className='flex'>
-  <img className='border absolute border-red-400 ' src={line} alt="" />
-  <img className='border absolute bottom-0 border-red-400 ' src={line} alt="" />
-  <img src={line1} alt="" />
-  <img src={img1} alt="" />
-  </div>
-  <div className='flex'>
-  <img className='border absolute border-red-400 ' src={line} alt="" />
-  <img className='border absolute bottom-0 border-red-400 ' src={line} alt="" />
+  <div className='flex '>
+  <img className='border absolute  -mt-6 -ml-2 ' src={line} alt="" />
+  <img className='border absolute  -right-3  ' src={line} alt="" />
   <img src={line1} alt="" />
   <img src={img1} alt="" />
   </div>
   <div className='flex'>
-  <img className='border absolute border-red-400 ' src={line} alt="" />
-  <img className='border absolute bottom-0 border-red-400 ' src={line} alt="" />
+  <img className='border absolute  -mt-6 -ml-2 ' src={line} alt="" />
+  <img className='border absolute  -mt-6 -ml-2 ' src={line} alt="" />
   <img src={line1} alt="" />
   <img src={img1} alt="" />
-  <img className='border absolute right-0 border-red-400 ' src={line} alt="" />
+  </div>
+  <div className='flex'>
+  <img className='border absolute  -mt-6 -ml-2 ' src={line} alt="" />
+  <img className='border absolute  -mt-6 -ml-2 ' src={line} alt="" />
   <img src={line1} alt="" />
-  <img className='border absolute right-0 bottom-0 border-red-400 ' src={line} alt="" />
+  <img src={img1} alt="" />
+  <img className='border absolute  -mt-6 -ml-2 ' src={line} alt="" />
+  <img src={line1} alt="" />
+  <img className='border absolute  -mt-6 -ml-2 ' src={line} alt="" />
   
   </div>
  

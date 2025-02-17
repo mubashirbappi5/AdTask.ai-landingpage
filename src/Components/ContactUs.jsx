@@ -1,3 +1,6 @@
+import { FaPhoneAlt } from "react-icons/fa";
+import { IoLocationOutline } from "react-icons/io5";
+import { MdOutlineMail } from "react-icons/md";
 
 
 const ContactUs = () => {
@@ -21,13 +24,13 @@ const ContactUs = () => {
             </p>
             <div className="space-y-2">
               <p className="flex items-center space-x-2">
-                ✉️ <a href="mailto:contact@actask.ai" className="text-blue-400">contact@actask.ai</a>
+              <MdOutlineMail className="text-[#5C73AE]" /> <a href="mailto:contact@actask.ai" className="text-blue-400">contact@actask.ai</a>
               </p>
               <p className="flex items-center space-x-2">
-                📞 <span>(969) 819-8061</span>
+              <FaPhoneAlt className="text-[#5C73AE]" /> <span>(969) 819-8061</span>
               </p>
               <p className="flex items-center space-x-2">
-                📍 <span>San Francisco Bay Area</span>
+              <IoLocationOutline className="text-[#5C73AE]" /> <span>San Francisco Bay Area</span>
               </p>
             </div>
           </div>
