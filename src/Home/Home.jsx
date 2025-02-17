@@ -4,6 +4,7 @@ import Banner from "../Components/Banner";
 import Brand from "../Components/Brand";
 import ContactUs from "../Components/ContactUs";
 import Feature from "../Components/Feature";
+import Hero from "../Components/Hero";
 
 import Navber from "../Components/Navber";
 import SERVICES from "../Components/SERVICES";
@@ -23,6 +24,7 @@ const Home = () => {
          
        <Testimonial/>
        <ContactUs/>
+       <Hero/>
            </div>
         </div>
     );
