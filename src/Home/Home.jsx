@@ -6,6 +6,8 @@ import ContactUs from "../Components/ContactUs";
 import Feature from "../Components/Feature";
 
 import Navber from "../Components/Navber";
+import SERVICES from "../Components/SERVICES";
+import Testimonial from "../Components/Testimonial";
 
 const Home = () => {
     return (
@@ -17,8 +19,10 @@ const Home = () => {
            <Brand/>
           <AdTaskPartners/>
           <Feature/>
-         <ContactUs/>
-       
+          <SERVICES/>
+         
+       <Testimonial/>
+       <ContactUs/>
            </div>
         </div>
     );
