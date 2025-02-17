@@ -27,13 +27,17 @@ const Feature = () => {
       <section className='grid grid-cols-3 my-16'>
        <img src={img1} alt="" />
        <div className='space-y-8'>
-       <img src={img2} alt="" />
+      <div className='w-[352px] h-[280px] border border-[#7687B5] rounded-2xl flex justify-center pt-7'>
+            <div className='w-[112px] h-[107px] border border-[#7687B5] rounded-2xl'>
+
+            </div>
+      </div>
        <img src={img3} alt="" />
        </div>
        <img src={img4} alt="" />
       </section>
     </div>
   );
-};
+}
 
 export default Feature;

@@ -7,8 +7,10 @@ const ContactUs = () => {
       <button className="px-4 py-2 mb-4 bg-gray-800 text-white rounded-md border border-gray-600 hover:bg-gray-700">
         CONTACT US
       </button>
-      <div className="w-full max-w-4xl border border-gray-600 p-6 rounded-lg bg-gradient-to-r from-gray-900 to-black">
+      <div className="w-full   p-6 rounded-lg bg-gradient-to-r from-gray-900 to-black">
+      
         <div className="grid md:grid-cols-2 gap-6">
+        <div className="absolute top-5 z-20 left-1/2 transform -translate-x-1/2 w-72 h-96 bg-[#5168a2] opacity-50 blur-3xl"></div>
           <div>
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
               Ask whatever you have <br />
@@ -47,7 +49,7 @@ const ContactUs = () => {
             ></textarea>
             <button
               type="submit"
-              className="px-6 py-2 bg-blue-500 rounded-md text-white font-semibold hover:bg-blue-600 transition"
+              className="px-6 py-2 bg-[#7687B54A] border border-[#7687B5] rounded-2xl text-white font-semibold transition"
             >
               Submit
             </button>

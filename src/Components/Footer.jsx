@@ -1,3 +1,5 @@
+import { IoLocationOutline } from "react-icons/io5";
+import {  MdOutlineMail } from "react-icons/md";
 
 
 const Footer = () => {
@@ -9,10 +11,10 @@ const Footer = () => {
         <div className="text-center md:text-left mb-4 md:mb-0">
           <h2 className="text-3xl font-semibold text-gray-100">ad<span className="text-gray-400">Task</span>.ai</h2>
           <p className="mt-2 flex items-center justify-center md:justify-start gap-2">
-            <span className="text-blue-400">✉</span> <a href="mailto:contact@adtask.ai" className="hover:text-blue-400">contact@adtask.ai</a>
+            <span className="text-[#5C73AE]"><MdOutlineMail /></span> <a href="mailto:contact@adtask.ai" className="hover:text-blue-400">contact@adtask.ai</a>
           </p>
           <p className="mt-1 flex items-center justify-center md:justify-start gap-2">
-            <span className="text-blue-400">📍</span> San Francisco Bay Area
+            <span className="text-[#5C73AE]"><IoLocationOutline /></span> San Francisco Bay Area
           </p>
         </div>
 
